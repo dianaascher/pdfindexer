@@ -629,8 +629,7 @@ public class Pdfindexer {
 	public void showVersion() {
 		System.err.println("Pdfindexer Version: " + VERSION);
 		System.err.println();
-		System.err
-				.println(" github: https://github.com/WolfgangFahl/pdfindexer.git");
+		System.err.println(" github: https://github.com/dianaascher/pdfindexer.git");
 		System.err.println("");
 	}
 

@@ -10,28 +10,28 @@ Index and search PDF sources (files and URLs) using Apache Lucene and PDFBox
 * Maven based Java project including JUnit 4 tests.
 
 ### How to build
-* git clone https://github.com/WolfgangFahl/pdfindexer
+* git clone https://github.com/dianaascher/pdfindexer
 * cd pdfindexer
 * mvn install
 
 # Examples
-see [test folder](https://github.com/WolfgangFahl/pdfindexer/tree/master/test) for example input and results
+see [test folder](https://github.com/dianaascher/pdfindexer/tree/master/test) for example input and results
 
 ### Lorem Ipsum
-* Source: [Lorem Ipsum PDF](https://github.com/WolfgangFahl/pdfindexer/blob/master/test/pdfsource1/LoremIpsum.pdf "Click to open PDF source")
-* Keywords: https://github.com/WolfgangFahl/pdfindexer/blob/master/test/searchwords.txt
-* Result:  [Lorem Ipsum PDF Index](https://github.com/WolfgangFahl/pdfindexer/blob/master/test/pdfindex.html "Click to open html source")
+* Source: [Nudge PDF](https://github.com/dianaascher/pdfindexer/test/pdfsource1/Nudge.pdf "Click to open PDF source")
+* Keywords: https://github.com/dianaascher/pdfindexer/test/searchwords.txt
+* Result:  [Lorem Ipsum PDF Index](https://github.com/dianaascher/pdfindexer/test/pdfindex.html "Click to open html source")
 
     java -jar target/com.bitplan.pdfindex-0.0.1.jar --sourceFileList test/pdffiles.lst --idxfile test/index2 --outputfile test/html/pdfindex.html --searchWordList test/searchwords.txt --root test/ 
      resulting html file is in test/html/pdfindex.html
 
 resulting html file is in test/html/pdfindex.html
 
-### Cajun project 
-PDF text from the University of Notthingham about how to publish journals using the brand new Adobe technology (written 1993)
-* Source: http://eprints.nottingham.ac.uk/249/1/cajun.pdf
-* Keywords: Adobe IBM MS-DOS
-* Result: [Cajun PDF Index](https://github.com/WolfgangFahl/pdfindexer/blob/master/test/cajun.html "Click to open HTML source") 
+### Nudge project 
+PDF text from Nudge
+* Source: http://dianaascher.com/nudge.pdf
+* Keywords: searchwords.txt
+* Result: [Nudge PDF Index](https://github.com/dianaascherl/pdfindexer/test/nudge.html "Click to open HTML source") 
 
 # Usage
 		Pdfindexer Version: 0.0.3

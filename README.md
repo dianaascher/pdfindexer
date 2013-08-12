@@ -17,7 +17,7 @@ Index and search PDF sources (files and URLs) using Apache Lucene and PDFBox
 # Examples
 see [test folder](https://github.com/dianaascher/pdfindexer/tree/master/test) for example input and results
 
-### Lorem Ipsum
+### Nudge
 * Source: [Nudge PDF](https://github.com/dianaascher/pdfindexer/test/pdfsource1/Nudge.pdf "Click to open PDF source")
 * Keywords: https://github.com/dianaascher/pdfindexer/test/searchwords.txt
 * Result:  [Nudge PDF Index](https://github.com/dianaascher/pdfindexer/test/pdfindex.html "Click to open html source")

@@ -1,6 +1,6 @@
 <!--
   Created with PDFIndexer
-  see  https://github.com/WolfgangFahl/pdfindexer
+  see  https://github.com/dianaascher/pdfindexer
 -->
 <html>
 	<head>

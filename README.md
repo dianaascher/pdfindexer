@@ -31,7 +31,7 @@ resulting html file is in test/html/pdfindex.html
 PDF text from Nudge
 * Source: http://dianaascher.com/nudge.pdf
 * Keywords: searchwords.txt
-* Result: [Nudge PDF Index](https://github.com/dianaascherl/pdfindexer/test/nudge.html "Click to open HTML source") 
+* Result: [Nudge PDF Index](http://dianaascher.com/wp-content/uploads/2013/08/Nudge.pdf "Click to open HTML source") 
 
 # Usage
 		Pdfindexer Version: 0.0.3

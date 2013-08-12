@@ -5,8 +5,8 @@
 Index and search PDF sources (files and URLs) using Apache Lucene and PDFBox
 
 ### Project
-* Open Source hosted at https://github.com/WolfgangFahl/pdfindexer
-* License based on license of libraries used (see [pom.xml](https://github.com/WolfgangFahl/pdfindexer/blob/master/pom.xml))
+* Open Source hosted at https://github.com/dianaascher/pdfindexer
+* License based on license of libraries used (see [pom.xml](https://github.com/dianaascher/pdfindexer/pom.xml))
 * Maven based Java project including JUnit 4 tests.
 
 ### How to build
@@ -20,7 +20,7 @@ see [test folder](https://github.com/dianaascher/pdfindexer/tree/master/test) fo
 ### Lorem Ipsum
 * Source: [Nudge PDF](https://github.com/dianaascher/pdfindexer/test/pdfsource1/Nudge.pdf "Click to open PDF source")
 * Keywords: https://github.com/dianaascher/pdfindexer/test/searchwords.txt
-* Result:  [Lorem Ipsum PDF Index](https://github.com/dianaascher/pdfindexer/test/pdfindex.html "Click to open html source")
+* Result:  [Nudge PDF Index](https://github.com/dianaascher/pdfindexer/test/pdfindex.html "Click to open html source")
 
     java -jar target/com.bitplan.pdfindex-0.0.1.jar --sourceFileList test/pdffiles.lst --idxfile test/index2 --outputfile test/html/pdfindex.html --searchWordList test/searchwords.txt --root test/ 
      resulting html file is in test/html/pdfindex.html
@@ -36,7 +36,7 @@ PDF text from Nudge
 # Usage
 		Pdfindexer Version: 0.0.3
 		
-		 github: https://github.com/WolfgangFahl/pdfindexer.git
+		 github: https://github.com/dianaascher/pdfindexer.git
 		
 		  usage: java com.bitplan.pdfindexer.Pdfindexer
 		 --title VAL                  : title to be used in html result
